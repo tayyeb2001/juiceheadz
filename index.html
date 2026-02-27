@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juiceheadz | Performance Supplements</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <!-- Grain Overlay -->
+    <div class="grain-overlay"></div>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/447459161783?text=Hi%20I%20am%20interested%20in%20your%20products" target="_blank" rel="noopener noreferrer" class="floating-wa">
+        <i data-lucide="message-circle" class="wa-icon"></i>
+    </a>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-bg">
+            <div class="gradient-sphere sphere-1"></div>
+            <div class="gradient-sphere sphere-2"></div>
+            <div class="grid-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <img src="./logo.png" alt="Juiceheadz" class="hero-logo">
+            <h1 class="brand-title">JUICEHEADZ</h1>
+            <p class="tagline">PERFORMANCE SUPPLEMENTS</p>
+            <button class="cta-button" onclick="document.getElementById('catalog').scrollIntoView({behavior: 'smooth'})">
+                BROWSE CATALOGUE
+                <i data-lucide="arrow-down" class="ml-2 h-5 w-5"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Marquee Showcase -->
+    <div class="brand-marquee">
+        <div class="marquee-content">
+            <!-- Populated by JS -->
+        </div>
+    </div>
+
+    <!-- Main Catalogue Section -->
+    <main id="catalog" class="catalog-section">
+        <div class="container">
+            
+            <!-- Controls: Search & Sort -->
+            <div class="catalog-controls">
+                <div class="search-box">
+                    <i data-lucide="search" class="search-icon"></i>
+                    <input type="text" id="searchInput" placeholder="Search by name or brand...">
+                </div>
+                
+                <div class="sort-box">
+                    <i data-lucide="sliders-horizontal" class="sort-icon"></i>
+                    <select id="sortSelect">
+                        <option value="default">Default</option>
+                        <option value="price-asc">Price: Low to High</option>
+                        <option value="price-desc">Price: High to Low</option>
+                        <option value="name-asc">A-Z</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Categories -->
+            <div class="category-wrapper">
+                <div class="category-scroll" id="categoryContainer">
+                    <button class="category-pill active" data-id="all">
+                        <span>All Products</span>
+                        <span class="count" id="allCount">0</span>
+                    </button>
+                    <!-- Populated by JS -->
+                </div>
+            </div>
+
+            <!-- Results Info -->
+            <div class="results-info">
+                <span id="resultCount">Showing 0 products</span>
+            </div>
+
+            <!-- Product Grid -->
+            <div class="product-grid" id="productGrid">
+                <!-- Populated by JS -->
+            </div>
+            
+            <!-- Empty State -->
+            <div class="empty-state" id="emptyState" style="display: none;">
+                <i data-lucide="ghost" class="empty-icon"></i>
+                <h3>No products found</h3>
+                <p>Try adjusting your search or filters.</p>
+                <button class="reset-btn" onclick="resetFilters()">Reset Filters</button>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <img src="./logo.png" alt="Juiceheadz" style="width: 120px; height: auto; margin-bottom: 1rem; filter: drop-shadow(0 0 20px rgba(204, 0, 0, 0.3));">
+                <br>
+                <a href="https://wa.me/447459161783?text=Hi%20I%20am%20interested%20in%20your%20products" target="_blank" rel="noopener noreferrer" class="footer-wa">
+                    <i data-lucide="message-circle"></i> +44 7459 161783
+                </a>
+            </div>
+            
+            <div class="footer-info">
+                <p class="coming-soon">More products coming soon!</p>
+                <p class="disclaimer">All products are sold for research purposes only.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Product Detail Modal -->
+    <div class="modal-overlay" id="productModal">
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose">
+                <i data-lucide="x"></i>
+            </button>
+            <div class="modal-body">
+                <div class="modal-image-container" id="modalImageContainer">
+                    <!-- Image inserted here -->
+                </div>
+                <div class="modal-details">
+                    <div class="modal-header">
+                        <div id="modalBrand" class="modal-brand"></div>
+                        <h2 id="modalTitle" class="modal-title"></h2>
+                        <div class="modal-tags">
+                            <span id="modalCategory" class="modal-tag"></span>
+                            <span id="modalType" class="modal-tag type-tag"></span>
+                        </div>
+                    </div>
+                    
+                    <div class="modal-price" id="modalPrice"></div>
+                    
+                    <div class="modal-section">
+                        <h3>What is it?</h3>
+                        <p id="modalDescription" class="modal-desc"></p>
+                    </div>
+                    
+                    <div class="modal-section">
+                        <h3>Key Benefits</h3>
+                        <ul id="modalBenefits" class="modal-benefits-list"></ul>
+                    </div>
+                    
+                    <div class="modal-action">
+                        <a href="#" id="modalOrderBtn" target="_blank" rel="noopener noreferrer" class="modal-cta">
+                            <i data-lucide="message-circle"></i>
+                            ORDER ON WHATSAPP
+                        </a>
+                        <p class="modal-disclaimer">All products are sold for research purposes only.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
