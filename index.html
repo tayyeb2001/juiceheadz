@@ -17,10 +17,61 @@
     <!-- Grain Overlay -->
     <div class="grain-overlay"></div>
 
-    <!-- Floating WhatsApp Button -->
-    <a href="https://wa.me/447459161783?text=Hi%20I%20am%20interested%20in%20your%20products" target="_blank" rel="noopener noreferrer" class="floating-wa">
-        <i data-lucide="message-circle" class="wa-icon"></i>
-    </a>
+    <!-- Floating Basket Button -->
+    <button class="floating-basket" onclick="toggleBasket()">
+        <i data-lucide="shopping-bag" class="basket-icon"></i>
+        <span class="basket-count" id="floatingBasketCount">0</span>
+    </button>
+
+    <!-- Basket Drawer -->
+    <div class="basket-overlay" id="basketOverlay" onclick="toggleBasket()"></div>
+    <div class="basket-drawer" id="basketDrawer">
+        <div class="basket-header">
+            <h2>Your Basket</h2>
+            <button class="basket-close" onclick="toggleBasket()">
+                <i data-lucide="x"></i>
+            </button>
+        </div>
+
+        <div class="basket-body" id="basketBody">
+            <div class="basket-empty" id="basketEmpty">
+                <i data-lucide="shopping-bag" style="width:48px;height:48px;color:var(--text-secondary);margin-bottom:1rem;"></i>
+                <p>Your basket is empty</p>
+            </div>
+            <div class="basket-items" id="basketItems"></div>
+        </div>
+
+        <div class="basket-footer" id="basketFooter" style="display:none;">
+            <div class="basket-address-form">
+                <h3>Delivery Details</h3>
+                <input type="text" id="custName" placeholder="Full Name" required>
+                <input type="text" id="custAddress" placeholder="Address Line 1" required>
+                <input type="text" id="custCity" placeholder="City" required>
+                <input type="text" id="custPostcode" placeholder="Postcode" required>
+                <input type="tel" id="custPhone" placeholder="Phone Number" required>
+            </div>
+
+            <div class="basket-totals">
+                <div class="total-row">
+                    <span>Subtotal</span>
+                    <span id="basketSubtotal">£0.00</span>
+                </div>
+                <div class="total-row">
+                    <span>Shipping</span>
+                    <span>£7.00</span>
+                </div>
+                <div class="total-row total-final">
+                    <span>Total</span>
+                    <span id="basketTotal">£0.00</span>
+                </div>
+            </div>
+
+            <button class="place-order-btn" onclick="placeOrder()">
+                <i data-lucide="message-circle"></i>
+                PLACE ORDER
+            </button>
+        </div>
+    </div>
 
     <!-- Hero Section -->
     <header class="hero">
@@ -30,7 +81,7 @@
             <div class="grid-overlay"></div>
         </div>
         <div class="hero-content">
-            <img src="./assets/images/site-logo.jpg" alt="Juiceheadz" class="hero-logo">
+            <img src="./assets/images/site-logo.png" alt="Juiceheadz" class="hero-logo">
             <h1 class="brand-title">JUICEHEADZ</h1>
             <p class="tagline">PERFORMANCE SUPPLEMENTS</p>
             <button class="cta-button" onclick="document.getElementById('catalog').scrollIntoView({behavior: 'smooth'})">
@@ -105,7 +156,7 @@
     <footer class="footer">
         <div class="container footer-content">
             <div class="footer-brand">
-                <img src="./assets/images/site-logo.jpg" alt="Juiceheadz" style="width: 120px; height: auto; margin-bottom: 1rem; filter: drop-shadow(0 0 20px rgba(37, 99, 235, 0.3));">
+                <img src="./assets/images/site-logo.png" alt="Juiceheadz" style="width: 120px; height: auto; margin-bottom: 1rem; filter: drop-shadow(0 0 20px rgba(37, 99, 235, 0.3));">
                 <br>
                 <a href="https://wa.me/447459161783?text=Hi%20I%20am%20interested%20in%20your%20products" target="_blank" rel="noopener noreferrer" class="footer-wa">
                     <i data-lucide="message-circle"></i> +44 7459 161783
@@ -153,10 +204,10 @@
                     </div>
                     
                     <div class="modal-action">
-                        <a href="#" id="modalOrderBtn" target="_blank" rel="noopener noreferrer" class="modal-cta">
-                            <i data-lucide="message-circle"></i>
-                            ORDER ON WHATSAPP
-                        </a>
+                        <button id="modalOrderBtn" class="modal-cta add-to-basket-cta" onclick="addToBasketFromModal()">
+                            <i data-lucide="shopping-bag"></i>
+                            ADD TO BASKET
+                        </button>
                         <p class="modal-disclaimer">All products are sold for research purposes only.</p>
                     </div>
                 </div>

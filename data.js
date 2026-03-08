@@ -335,7 +335,7 @@ const productsData = {
       "price": 35,
       "category": "orals",
       "type": "tablet",
-      "image": null
+      "image": "https://igpanabolics.com/wp-content/uploads/2023/01/ignis-clen-40.jpg"
     },
     {
       "id": "adelphi-test-prop-100mg",
@@ -635,7 +635,7 @@ const productsData = {
       "price": 20,
       "category": "ancillaries",
       "type": "tablet",
-      "image": null
+      "image": "https://onemg.gumlet.io/l_watermark_346,w_480,h_480/a_ignore,w_480,h_480,c_fit,q_auto,f_auto/hx2gxivwmeoxxxsc1hix.png"
     },
     {
       "id": "hcg-5000iu",
@@ -644,7 +644,7 @@ const productsData = {
       "price": 25,
       "category": "ancillaries",
       "type": "injection",
-      "image": null
+      "image": "https://onemg.gumlet.io/l_watermark_346,w_480,h_480/a_ignore,w_480,h_480,c_fit,q_auto,f_auto/hiadftw6zdq3uyinpggm.jpg"
     },
     {
       "id": "arimidex-1mg",
@@ -653,7 +653,7 @@ const productsData = {
       "price": 20,
       "category": "ancillaries",
       "type": "tablet",
-      "image": null
+      "image": "https://cdn.pixelbin.io/v2/plain-cake-860195/netmed/wrkr/products/assets/item/free/original/GrsHB85qi--arimidex_1mg_tablet_14s_50517_0_4.jpg"
     },
     {
       "id": "clomid-50mg",
@@ -680,7 +680,7 @@ const productsData = {
       "price": 20,
       "category": "ancillaries",
       "type": "tablet",
-      "image": null
+      "image": "https://cdn.pixelbin.io/v2/plain-cake-860195/netmed/wrkr/products/assets/item/free/original/zcOYuXzw4J-letroz_2_5mg_tablet_5s_35176_0_3.jpg"
     },
     {
       "id": "proviron-25mg",
@@ -689,7 +689,7 @@ const productsData = {
       "price": 20,
       "category": "ancillaries",
       "type": "tablet",
-      "image": null
+      "image": "https://medecify.com/wp-content/uploads/2025/04/BE-E-F-DA-D-CF-E-ED-scaled.jpeg"
     },
     {
       "id": "metformin-500mg",
@@ -716,7 +716,7 @@ const productsData = {
       "price": 20,
       "category": "ancillaries",
       "type": "tablet",
-      "image": null
+      "image": "https://www.cytechpharma.com/wp-content/uploads/2024/09/front-t3cytomel25.png"
     },
     {
       "id": "t4-levothyroxine-100mcg",
@@ -725,7 +725,7 @@ const productsData = {
       "price": 30,
       "category": "ancillaries",
       "type": "tablet",
-      "image": null
+      "image": "https://internationalpharmacy.com/wp-content/uploads/2024/10/FFE8dTwhXO3Ard9jX1nrzqf3vfFas7fFgUiOC4Nb.jpg"
     },
     {
       "id": "t5-fatburners",
@@ -734,7 +734,7 @@ const productsData = {
       "price": 30,
       "category": "ancillaries",
       "type": "tablet",
-      "image": null
+      "image": "https://www.fatburners.at/wp-content/uploads/2019/01/T5-Extreme-Zion-Labs-Fatburners-650x650.png.webp"
     },
     {
       "id": "yohimbine-10mg-50",
@@ -743,7 +743,7 @@ const productsData = {
       "price": 35,
       "category": "ancillaries",
       "type": "tablet",
-      "image": null
+      "image": "https://dealsupplement.com/cdn/shop/products/web_bd11f162-1d09-40c6-9f12-593f3c5b5e6b.jpg?v=1645232945"
     },
     {
       "id": "nasal-melanotan",
@@ -752,7 +752,7 @@ const productsData = {
       "price": 25,
       "category": "ancillaries",
       "type": "spray",
-      "image": null
+      "image": "https://yoursoma.com/wp-content/uploads/2025/12/Melanotan-II-Nasal-Spray-Soma-Peptides-1024x1024.png"
     },
     {
       "id": "injectable-melanotan",
@@ -761,7 +761,7 @@ const productsData = {
       "price": 25,
       "category": "ancillaries",
       "type": "injection",
-      "image": null
+      "image": "https://turbo-tan.net/wp-content/uploads/2024/06/MELA-STARTER.png"
     },
     {
       "id": "pin-pack",
@@ -770,7 +770,7 @@ const productsData = {
       "price": 10,
       "category": "ancillaries",
       "type": "accessories",
-      "image": null
+      "image": "https://ovilcare.com/cdn/shop/products/422GLB_thumb_27266680-be16-4fee-93bc-50b3ebe39ee2.jpg?v=1618158373"
     },
     {
       "id": "insulin-pins-05ml",
@@ -779,7 +779,7 @@ const productsData = {
       "price": 5,
       "category": "ancillaries",
       "type": "accessories",
-      "image": null
+      "image": "https://www.ddgroup.com/globalassets/productimages/syu110/syu110_1.jpg"
     },
     {
       "id": "insulin-pen-pins-20",
@@ -788,7 +788,7 @@ const productsData = {
       "price": 5,
       "category": "ancillaries",
       "type": "accessories",
-      "image": null
+      "image": "https://www.novocare.com/content/dam/novonordisk/novocare/images/novo-needles/NovoFine_32G_6mm.png"
     },
     {
       "id": "pharma-anadrol-50mg",
@@ -797,7 +797,7 @@ const productsData = {
       "price": 30,
       "category": "pharma-grade",
       "type": "tablet",
-      "image": null
+      "image": "https://www.tmuscle.co.uk/articles/wp-content/uploads/2020/05/oxys.png"
     },
     {
       "id": "sopharma-clen-20mcg",
@@ -806,7 +806,7 @@ const productsData = {
       "price": 25,
       "category": "pharma-grade",
       "type": "tablet",
-      "image": null
+      "image": "https://www.getroids1.net/image/cache/clenbuterol-so-pharma-100-tablets-560x600w.jpg"
     },
     {
       "id": "melatonin-2mg",
@@ -815,7 +815,7 @@ const productsData = {
       "price": 15,
       "category": "pharma-grade",
       "type": "tablet",
-      "image": null
+      "image": "https://api.evaro.com/wp-content/uploads/2025/12/Circadin-Melatonin-Tablets-FRONT.png"
     },
     {
       "id": "cocodamol-30-500",
@@ -824,7 +824,7 @@ const productsData = {
       "price": 40,
       "category": "pharma-grade",
       "type": "tablet",
-      "image": null
+      "image": "https://www.ddgroup.com/globalassets/productimages/npc021/npc021_1.jpg"
     },
     {
       "id": "dihydrocodeine-30mg",
@@ -833,7 +833,7 @@ const productsData = {
       "price": 55,
       "category": "pharma-grade",
       "type": "tablet",
-      "image": null
+      "image": "https://www.ddgroup.com/globalassets/productimages/nad030/nad030_1.jpg"
     },
     {
       "id": "finasteride-1mg",
@@ -842,7 +842,133 @@ const productsData = {
       "price": 30,
       "category": "pharma-grade",
       "type": "tablet",
+      "image": "https://www.chemist-4-u.com/media/catalog/product/cache/6cabc0d88db620e19e8aff70cb39d0b0/f/i/finasteridemain.png"
+    },
+    {
+      "id": "zopiclone-7-5mg",
+      "name": "Zopiclone 7.5mg x 28",
+      "brand": "Pharma Grade",
+      "price": 40,
+      "category": "pharma-grade",
+      "type": "tablet",
+      "image": "https://www.crescentpharma.com/wp-content/uploads/2016/01/Zopiclone-7.5mg-600x600.png"
+    },
+    {
+      "id": "tramadol-50mg",
+      "name": "Tramadol 50mg x 100",
+      "brand": "Pharma Grade",
+      "price": 45,
+      "category": "pharma-grade",
+      "type": "tablet",
       "image": null
+    },
+    {
+      "id": "codeine-30mg-strip",
+      "name": "Codeine 30mg x 25 (Strip)",
+      "brand": "Pharma Grade",
+      "price": 25,
+      "category": "pharma-grade",
+      "type": "tablet",
+      "image": "https://ukhealwell.co.uk/wp-content/uploads/2024/04/Codeine-Phosphate-30mg.png"
+    },
+    {
+      "id": "codeine-30mg-box",
+      "name": "Codeine 30mg x 100 (Box)",
+      "brand": "Pharma Grade",
+      "price": 85,
+      "category": "pharma-grade",
+      "type": "tablet",
+      "image": "https://ukhealwell.co.uk/wp-content/uploads/2024/04/Codeine-Phosphate-30mg.png"
+    },
+    {
+      "id": "diazepam-5mg",
+      "name": "Diazepam 5mg x 28",
+      "brand": "Pharma Grade",
+      "price": 25,
+      "category": "pharma-grade",
+      "type": "tablet",
+      "image": "https://www.crescentpharma.com/wp-content/uploads/2016/01/Diazepam-5mg-1.png"
+    },
+    {
+      "id": "pregabalin",
+      "name": "Pregabalin",
+      "brand": "Pharma Grade",
+      "price": 25,
+      "category": "pharma-grade",
+      "type": "tablet",
+      "image": "https://uksleepaid.com/img/Pregabalin.png"
+    },
+    {
+      "id": "foreign-diazepam-10mg",
+      "name": "Foreign Diazepam 10mg x 30",
+      "brand": "Foreign Pharma",
+      "price": 35,
+      "category": "pharma-grade",
+      "type": "tablet",
+      "image": null
+    },
+    {
+      "id": "foreign-zopiclone-10mg",
+      "name": "Foreign Zopiclone 10mg x 28",
+      "brand": "Foreign Pharma",
+      "price": 30,
+      "category": "pharma-grade",
+      "type": "tablet",
+      "image": null
+    },
+    {
+      "id": "foreign-pregabalin-300mg",
+      "name": "Foreign Pregabalin 300mg x 30",
+      "brand": "Foreign Pharma",
+      "price": 30,
+      "category": "pharma-grade",
+      "type": "tablet",
+      "image": "https://ukpromed.com/wp-content/uploads/pregablin.jpeg"
+    },
+    {
+      "id": "xanax-1mg",
+      "name": "Xanax 1mg x 30",
+      "brand": "Pharma Grade",
+      "price": 30,
+      "category": "pharma-grade",
+      "type": "tablet",
+      "image": "https://rxsavemeds.com/wp-content/uploads/2021/06/Tempus-Alprazolam-2mg-300x300.jpg?v=1624255596"
+    },
+    {
+      "id": "modafinil-200mg",
+      "name": "Modafinil 200mg x 30",
+      "brand": "Pharma Grade",
+      "price": 35,
+      "category": "pharma-grade",
+      "type": "tablet",
+      "image": "https://www.medsforless.co.uk/wp-content/uploads/2022/02/modaifnil-box-front.png"
+    },
+    {
+      "id": "vitamin-b12-injections",
+      "name": "Vitamin B12 Injections 5 x 1 Amps",
+      "brand": "Pharma Grade",
+      "price": 35,
+      "category": "pharma-grade",
+      "type": "injection",
+      "image": "https://www.twofaceaesthetics.com/cdn/shop/files/Hydroxocobalamin.png?v=1716543014"
+    },
+    {
+      "id": "amoxicillin-500mg",
+      "name": "Amoxicillin 500mg x 21",
+      "brand": "Pharma Grade",
+      "price": 20,
+      "category": "pharma-grade",
+      "type": "tablet",
+      "image": "https://api.evaro.com/wp-content/uploads/2025/11/Amoxicillin-500mg-Capsules-for-Dental-Infection-FRONT.png"
+    },
+    {
+      "id": "accutane-20mg",
+      "name": "Accutane 20mg x 56",
+      "brand": "Pharma Grade",
+      "price": 65,
+      "category": "pharma-grade",
+      "type": "tablet",
+      "image": "https://zeelabpharmacy.com/uploads/files/actinin-o-20-capsule-01.webp"
     },
     {
       "id": "alluvi-tirzepatide-40mg-wl",
@@ -905,7 +1031,7 @@ const productsData = {
       "price": 10,
       "category": "sexual-health",
       "type": "tablet",
-      "image": null
+      "image": "https://www.flatmeds.com/wp-content/uploads/2019/07/Cenforce-100-Mg-e1725454594352.jpg"
     },
     {
       "id": "viagra-100mg-100",
@@ -914,7 +1040,7 @@ const productsData = {
       "price": 50,
       "category": "sexual-health",
       "type": "tablet",
-      "image": null
+      "image": "https://www.flatmeds.com/wp-content/uploads/2019/07/Cenforce-100-Mg-e1725454594352.jpg"
     },
     {
       "id": "viagra-200mg-10",
@@ -923,7 +1049,7 @@ const productsData = {
       "price": 15,
       "category": "sexual-health",
       "type": "tablet",
-      "image": null
+      "image": "https://www.arrowmeds.com/wp-content/uploads/2021/09/Sildenafil-200-mg-300x300.webp"
     },
     {
       "id": "viagra-200mg-100",
@@ -932,7 +1058,7 @@ const productsData = {
       "price": 80,
       "category": "sexual-health",
       "type": "tablet",
-      "image": null
+      "image": "https://www.arrowmeds.com/wp-content/uploads/2021/09/Sildenafil-200-mg-300x300.webp"
     },
     {
       "id": "kamagra-jelly-100mg",
@@ -950,7 +1076,7 @@ const productsData = {
       "price": 30,
       "category": "sexual-health",
       "type": "tablet",
-      "image": null
+      "image": "https://www.flatmeds.com/wp-content/uploads/2019/07/Vidalista-5-Mg-e1725532609102.jpg"
     },
     {
       "id": "cialis-20mg-10",
@@ -959,7 +1085,7 @@ const productsData = {
       "price": 10,
       "category": "sexual-health",
       "type": "tablet",
-      "image": null
+      "image": "https://www.flatmeds.com/wp-content/uploads/2019/07/Vidalista-20-e1725532719625.jpg"
     },
     {
       "id": "cialis-20mg-100",
@@ -968,7 +1094,7 @@ const productsData = {
       "price": 50,
       "category": "sexual-health",
       "type": "tablet",
-      "image": null
+      "image": "https://www.flatmeds.com/wp-content/uploads/2019/07/Vidalista-20-e1725532719625.jpg"
     },
     {
       "id": "cialis-60mg-10",
@@ -977,7 +1103,7 @@ const productsData = {
       "price": 20,
       "category": "sexual-health",
       "type": "tablet",
-      "image": null
+      "image": "https://www.imperialmeds.com/wp-content/uploads/2024/09/tadalista-60mg-tadalafil-tablets.webp"
     },
     {
       "id": "cialis-60mg-100",
@@ -986,7 +1112,7 @@ const productsData = {
       "price": 100,
       "category": "sexual-health",
       "type": "tablet",
-      "image": null
+      "image": "https://www.imperialmeds.com/wp-content/uploads/2024/09/tadalista-60mg-tadalafil-tablets.webp"
     }
   ]
 }
